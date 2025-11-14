@@ -1,0 +1,61 @@
+@import url("colors.css");
+
+* {
+    border: none;
+    border-radius: 1;
+    font-family: "Orbitron", "JetBrainsMono Nerd Font", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    min-height: 0rem;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+tooltip {
+  background: @background;
+}
+
+tooltip label {
+  color: @on_surface;
+}
+
+#workspaces button {
+    padding: 0.3rem 1rem; 
+    margin: 1rem 0.2rem;
+    margin-top: 20px;
+    background: transparent;
+    color: @on_background;
+}
+
+#workspaces button:hover {
+    border-bottom: 1px dashed @background;
+    border-radius: 1rem;
+}
+
+#workspaces button.active {
+    border-bottom: 1px solid @on_primary_container;
+    border-radius: 0.5rem;
+    background: @primary;
+    color: @on_primary;
+}
+
+#window{
+    padding: 3px 10px;
+    margin: 4px;
+    color: @on_background;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network {
+    padding: 0.3rem 1rem;
+    margin: 1rem 0.5rem;
+    margin-top: 20px;
+    border-radius: 100px;
+    background: @primary;
+    color: @on_primary;
+}
+ 
