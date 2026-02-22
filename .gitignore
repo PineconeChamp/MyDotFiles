@@ -1,0 +1,102 @@
+# Cache directories
+*/Cache/
+*/Cache_Data/
+*/Code\ Cache/
+*/DawnGraphiteCache/
+*/DawnWebGPUCache/
+**/Cache/
+**/Code Cache/
+**/GPUCache/
+
+# Session and storage data
+*/Session\ Storage/
+*/Local\ Storage/
+*/IndexedDB/
+*/Shared\ Dictionary/
+*/WebStorage/
+**/Session Storage/
+**/Local Storage/
+**/IndexedDB/
+**/Shared Dictionary/
+**/WebStorage/
+
+# Browser/Application data
+**/Cookies
+**/Cookies-journal
+**/DIPS
+**/DIPS-wal
+**/Network\ Persistent\ State
+**/TransportSecurity
+**/Trust\ Tokens
+**/Trust\ Tokens-journal
+
+# Runtime/temporary files
+**/Crashpad/
+**/blob_storage/
+**/.updaterId
+**/*.log
+**/*.lock
+
+# Database and journal files
+**/*.db
+**/*.sqlite
+**/*.sqlite-journal
+**/leveldb/
+
+# OS and temporary files
+.DS_Store
+*.tmp
+*.swp
+*.swo
+*~
+.~*
+
+# Preference files that change frequently
+**/Preferences
+**/preferences.json
+**/*.ini.bak
+**/*.conf.bak
+
+# Plugin/extension runtime data
+*/plugins/
+**/plugins/
+
+# Electron app runtime
+**/node_modules/
+**/dist/
+**/build/
+
+# Application-specific runtime directories (these can be toggled per-app)
+discord/Cache/
+discord/CachedData/
+discord/Code\ Cache/
+discord/GPUCache/
+discord/Local\ Storage/
+discord/Session\ Storage/
+Code/Cache/
+Code/CachedData/
+Code/CachedExtensionVSIXs/
+Code/CachedConfigurations/
+Code/Code\ Cache/
+Code/GPUCache/
+Code/Local\ Storage/
+Code/Session\ Storage/
+Code/Service\ Worker/
+Code/logs/
+Blockbench/Cache/
+Blockbench/Code\ Cache/
+Blockbench/GPUCache/
+Blockbench/Local\ Storage/
+Blockbench/Session\ Storage/
+
+# Specific application cache/runtime
+CurseForge/Cache/
+CurseForge/Code\ Cache/
+CurseForge/CachedData/
+CurseForge/blob_storage/
+
+# Keep actual config files, but ignore runtime state
+!**/.gitkeep
+!/**.config
+!/**/*.conf
+!/**/*.rc
