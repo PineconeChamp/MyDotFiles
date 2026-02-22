@@ -1,0 +1,9 @@
+# GIMP gimp-dodge-burn-tool options
+
+(brush "Pencil 03")
+(dynamics "Pressure Size")
+(palette "Colour History")
+(brush-size 32)
+(brush-spacing 0.20000000000000001)
+
+# end of gimp-dodge-burn-tool options

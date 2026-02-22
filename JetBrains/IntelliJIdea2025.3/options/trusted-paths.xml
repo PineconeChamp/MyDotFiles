@@ -1,0 +1,11 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/Decompile Jar" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/Hytale-Example-Plugin" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/Hytale-Example-Plugin-2" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,205 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="5" l="1768657506063" />
+    </e>
+    <e n="$Delete">
+      <i c="4" l="1768760800146" />
+    </e>
+    <e n="$Paste">
+      <i c="1" l="1768657518990" />
+    </e>
+    <e n="$Undo">
+      <i c="17" l="1768760338056" />
+    </e>
+    <e n="ActivateGradleToolWindow">
+      <i c="1" l="1768659588510" />
+    </e>
+    <e n="Annotate">
+      <i c="1" l="1768759855139" />
+    </e>
+    <e n="ContextHelp">
+      <i c="60" l="1768659058712" />
+    </e>
+    <e n="CopyAbsolutePath">
+      <i c="1" l="1768757727704" />
+    </e>
+    <e n="CopyReferencePopupGroup">
+      <i c="1" l="1768757722789" />
+    </e>
+    <e n="CreateDesktopEntry">
+      <i c="1" l="1768570555224" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="275" l="1768760784718" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="11" l="1768760774578" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="24" l="1768760753415" />
+    </e>
+    <e n="EditorCopy">
+      <i c="7" l="1768760732099" />
+    </e>
+    <e n="EditorCut">
+      <i c="3" l="1768759970513" />
+    </e>
+    <e n="EditorDown">
+      <i c="4" l="1768760167154" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="1" l="1768759807617" />
+    </e>
+    <e n="EditorEnter">
+      <i c="30" l="1768760759534" />
+    </e>
+    <e n="EditorEscape">
+      <i c="5" l="1768759859130" />
+    </e>
+    <e n="EditorLeft">
+      <i c="3" l="1768759831880" />
+    </e>
+    <e n="EditorPaste">
+      <i c="10" l="1768760743846" />
+    </e>
+    <e n="EditorPasteFromX11">
+      <i c="16" l="1768757609450" />
+    </e>
+    <e n="EditorRight">
+      <i c="5" l="1768760173675" />
+    </e>
+    <e n="EditorTab">
+      <i c="6" l="1768760700048" />
+    </e>
+    <e n="ExternalSystem.RunTask">
+      <i c="5" l="1768659640610" />
+    </e>
+    <e n="Find">
+      <i c="1" l="1768658734081" />
+    </e>
+    <e n="Floating.CodeToolbar.Extract">
+      <i c="12" l="1768759906075" />
+    </e>
+    <e n="Floating.CodeToolbar.Surround">
+      <i c="1" l="1768759903764" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="14" l="1768760461363" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="1" l="1768658100683" />
+    </e>
+    <e n="NewClass">
+      <i c="2" l="1768760373614" />
+    </e>
+    <e n="NewElement">
+      <i c="1" l="1768580684422" />
+    </e>
+    <e n="NewModuleInGroup">
+      <i c="1" l="1768657410361" />
+    </e>
+    <e n="OpenFile">
+      <i c="4" l="1768659454848" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="1" l="1768757575809" />
+    </e>
+    <e n="ProjectFromVersionControl">
+      <i c="1" l="1768659410256" />
+    </e>
+    <e n="ReloadScriptConfiguration">
+      <i c="3" l="1768659547705" />
+    </e>
+    <e n="RunAnything">
+      <i c="1" l="1768659131086" />
+    </e>
+    <e n="SaveAll">
+      <i c="25" l="1768760842579" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="13" l="1768758995190" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="2" l="1768659348757" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="9" l="1768759907001" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1768659350806" />
+    </e>
+    <e n="SpeedSearch">
+      <i c="4" l="1768757555070" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1768590117535" />
+    </e>
+    <e n="SynchronizeCurrentFile">
+      <i c="1" l="1768659543995" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1768760292488" />
+    </e>
+    <e n="ToolWindowShowNamesAction">
+      <i c="1" l="1768659551129" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="7" l="1768579264162" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="5" l="1768579262213" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1768578921250" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="3" l="1768570552207" />
+    </e>
+    <e n="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
+      <i c="1" l="1768570423055" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="3" l="1768759008794" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1768658736610" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.SkipImportAction">
+      <i c="1" l="1768570253269" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="19" l="1768760478357" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="1" l="1768570494062" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="4" l="1768758734114" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="2" l="1768657292895" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.HideAction">
+      <i c="1" l="1768657394449" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="37" l="1768683320953" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="11" l="1768659582690" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="4" l="1768570554464" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="2" l="1768658510489" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="1" l="1768758983850" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
+      <i c="2" l="1768758990059" />
+    </e>
+  </component>
+</application>

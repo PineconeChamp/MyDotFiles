@@ -1,0 +1,11 @@
+# GIMP gimp-smudge-tool options
+
+(brush "Pencil 03")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Colour History")
+(brush-size 32)
+(brush-spacing 0.20000000000000001)
+
+# end of gimp-smudge-tool options

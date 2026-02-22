@@ -1,0 +1,375 @@
+
+# Stack traces obtained from PID 53786 - Thread 53786 #
+
+[New LWP 54489]
+[New LWP 54469]
+[New LWP 54459]
+[New LWP 53824]
+[New LWP 53816]
+[New LWP 53810]
+[New LWP 53809]
+[New LWP 53808]
+[New LWP 53807]
+[New LWP 53806]
+[New LWP 53805]
+[New LWP 53804]
+[New LWP 53803]
+[New LWP 53802]
+[New LWP 53801]
+[New LWP 53800]
+[New LWP 53799]
+[New LWP 53798]
+[New LWP 53797]
+[New LWP 53796]
+[New LWP 53795]
+[New LWP 53794]
+[New LWP 53793]
+[New LWP 53792]
+[New LWP 53791]
+[New LWP 53790]
+[New LWP 53789]
+[New LWP 53788]
+[New LWP 53787]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+0x00007f2d6bdb7982 in __syscall_cancel_arch () from /lib64/libc.so.6
+  Id   Target Id                                           Frame 
+* 1    Thread 0x7f2d697fd380 (LWP 53786) "gimp-3.0"        0x00007f2d6bdb7982 in __syscall_cancel_arch () from /lib64/libc.so.6
+  2    Thread 0x7f2cae0f96c0 (LWP 54489) "pool-1"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  3    Thread 0x7f2cb92176c0 (LWP 54469) "blocking-3"      0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  4    Thread 0x7f2cad0ac6c0 (LWP 54459) "[pango] fontcon" 0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  5    Thread 0x7f2cb8e156c0 (LWP 53824) "gly-hdl-loader"  0x00007f2d6bdb7982 in __syscall_cancel_arch () from /lib64/libc.so.6
+  6    Thread 0x7f2cb90166c0 (LWP 53816) "gly-hdl-loader"  0x00007f2d6bdb7982 in __syscall_cancel_arch () from /lib64/libc.so.6
+  7    Thread 0x7f2cb96196c0 (LWP 53810) "async-io"        0x00007f2d6b742f92 in async_io::reactor::ReactorLock::react () from /lib64/libglycin-2.so.0
+  8    Thread 0x7f2cb981a6c0 (LWP 53809) "gly-global-exec" 0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  9    Thread 0x7f2cba01b6c0 (LWP 53808) "async"           0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  10   Thread 0x7f2cbbfff6c0 (LWP 53807) "dconf worker"    0x00007f2d6bdb7982 in __syscall_cancel_arch () from /lib64/libc.so.6
+  11   Thread 0x7f2cc0c3e6c0 (LWP 53806) "pool-0"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  12   Thread 0x7f2d45ff36c0 (LWP 53805) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  13   Thread 0x7f2d467f46c0 (LWP 53804) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  14   Thread 0x7f2d46ff56c0 (LWP 53803) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  15   Thread 0x7f2d477f66c0 (LWP 53802) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  16   Thread 0x7f2d47ff76c0 (LWP 53801) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  17   Thread 0x7f2d487f86c0 (LWP 53800) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  18   Thread 0x7f2d48ff96c0 (LWP 53799) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  19   Thread 0x7f2d497fa6c0 (LWP 53798) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  20   Thread 0x7f2d49ffb6c0 (LWP 53797) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  21   Thread 0x7f2d4a7fc6c0 (LWP 53796) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  22   Thread 0x7f2d4affd6c0 (LWP 53795) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  23   Thread 0x7f2d4b7fe6c0 (LWP 53794) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  24   Thread 0x7f2d4bfff6c0 (LWP 53793) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  25   Thread 0x7f2d58b566c0 (LWP 53792) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  26   Thread 0x7f2d593576c0 (LWP 53791) "worker"          0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  27   Thread 0x7f2d59ffc6c0 (LWP 53790) "gdbus"           0x00007f2d6bdb7982 in __syscall_cancel_arch () from /lib64/libc.so.6
+  28   Thread 0x7f2d5a7fd6c0 (LWP 53789) "gmain"           0x00007f2d6bdb7982 in __syscall_cancel_arch () from /lib64/libc.so.6
+  29   Thread 0x7f2d5affe6c0 (LWP 53788) "pool-spawner"    0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+  30   Thread 0x7f2d5b7ff6c0 (LWP 53787) "[pango] fontcon" 0x00007f2d6be3034d in syscall () from /lib64/libc.so.6
+
+Thread 30 (Thread 0x7f2d5b7ff6c0 (LWP 53787) "[pango] fontcon"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d2271ac in g_async_queue_pop_intern_unlocked () at /lib64/libglib-2.0.so.0
+#3  0x00007f2d6d22721c in g_async_queue_pop () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6cb726c9 in fc_thread_func () at /lib64/libpangoft2-1.0.so.0
+#5  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#6  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#7  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 29 (Thread 0x7f2d5affe6c0 (LWP 53788) "pool-spawner"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d2271ac in g_async_queue_pop_intern_unlocked () at /lib64/libglib-2.0.so.0
+#3  0x00007f2d6d292b74 in g_thread_pool_spawn_thread () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#5  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#6  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 28 (Thread 0x7f2d5a7fd6c0 (LWP 53789) "gmain"):
+#0  0x00007f2d6bdb7982 in __syscall_cancel_arch () at /lib64/libc.so.6
+#1  0x00007f2d6bdabc3c in __internal_syscall_cancel () at /lib64/libc.so.6
+#2  0x00007f2d6bdabc84 in __syscall_cancel () at /lib64/libc.so.6
+#3  0x00007f2d6be256c6 in ppoll () at /lib64/libc.so.6
+#4  0x00007f2d6d2672e0 in g_main_context_iterate_unlocked.isra () at /lib64/libglib-2.0.so.0
+#5  0x00007f2d6d2673a3 in g_main_context_iteration () at /lib64/libglib-2.0.so.0
+#6  0x00007f2d6d2673f1 in glib_worker_main () at /lib64/libglib-2.0.so.0
+#7  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#8  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#9  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 27 (Thread 0x7f2d59ffc6c0 (LWP 53790) "gdbus"):
+#0  0x00007f2d6bdb7982 in __syscall_cancel_arch () at /lib64/libc.so.6
+#1  0x00007f2d6bdabc3c in __internal_syscall_cancel () at /lib64/libc.so.6
+#2  0x00007f2d6bdabc84 in __syscall_cancel () at /lib64/libc.so.6
+#3  0x00007f2d6be256c6 in ppoll () at /lib64/libc.so.6
+#4  0x00007f2d6d2672e0 in g_main_context_iterate_unlocked.isra () at /lib64/libglib-2.0.so.0
+#5  0x00007f2d6d26749f in g_main_loop_run () at /lib64/libglib-2.0.so.0
+#6  0x00007f2d6d015f12 in gdbus_shared_thread_func.lto_priv () at /lib64/libgio-2.0.so.0
+#7  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#8  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#9  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 26 (Thread 0x7f2d593576c0 (LWP 53791) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 25 (Thread 0x7f2d58b566c0 (LWP 53792) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 24 (Thread 0x7f2d4bfff6c0 (LWP 53793) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 23 (Thread 0x7f2d4b7fe6c0 (LWP 53794) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 22 (Thread 0x7f2d4affd6c0 (LWP 53795) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 21 (Thread 0x7f2d4a7fc6c0 (LWP 53796) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 20 (Thread 0x7f2d49ffb6c0 (LWP 53797) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 19 (Thread 0x7f2d497fa6c0 (LWP 53798) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 18 (Thread 0x7f2d48ff96c0 (LWP 53799) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 17 (Thread 0x7f2d487f86c0 (LWP 53800) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 16 (Thread 0x7f2d47ff76c0 (LWP 53801) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 15 (Thread 0x7f2d477f66c0 (LWP 53802) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 14 (Thread 0x7f2d46ff56c0 (LWP 53803) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 13 (Thread 0x7f2d467f46c0 (LWP 53804) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 12 (Thread 0x7f2d45ff36c0 (LWP 53805) "worker"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d13e995 in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 11 (Thread 0x7f2cc0c3e6c0 (LWP 53806) "pool-0"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28a20b in g_cond_wait_until () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d22716d in g_async_queue_pop_intern_unlocked () at /lib64/libglib-2.0.so.0
+#3  0x00007f2d6d2272dd in g_async_queue_timeout_pop () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6d2937bf in g_thread_pool_thread_proxy () at /lib64/libglib-2.0.so.0
+#5  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#6  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#7  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 10 (Thread 0x7f2cbbfff6c0 (LWP 53807) "dconf worker"):
+#0  0x00007f2d6bdb7982 in __syscall_cancel_arch () at /lib64/libc.so.6
+#1  0x00007f2d6bdabc3c in __internal_syscall_cancel () at /lib64/libc.so.6
+#2  0x00007f2d6bdabc84 in __syscall_cancel () at /lib64/libc.so.6
+#3  0x00007f2d6be256c6 in ppoll () at /lib64/libc.so.6
+#4  0x00007f2d6d2672e0 in g_main_context_iterate_unlocked.isra () at /lib64/libglib-2.0.so.0
+#5  0x00007f2d6d2673a3 in g_main_context_iteration () at /lib64/libglib-2.0.so.0
+#6  0x00007f2d582f3e4d in dconf_gdbus_worker_thread () at /usr/lib64/gio/modules/libdconfsettings.so
+#7  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#8  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#9  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 9 (Thread 0x7f2cba01b6c0 (LWP 53808) "async"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x000055cf85a97bbe in gimp_parallel_run_async_thread_func ()
+#3  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 8 (Thread 0x7f2cb981a6c0 (LWP 53809) "gly-global-exec"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6b7fbb15 in parking::Inner::park () at /lib64/libglycin-2.so.0
+#2  0x00007f2d6b73bb08 in async_global_executor::threading::thread_main_loop () at /lib64/libglycin-2.so.0
+#3  0x00007f2d6b73a179 in std::sys::backtrace::__rust_begin_short_backtrace () at /lib64/libglycin-2.so.0
+#4  0x00007f2d6b7422af in core::ops::function::FnOnce::call_once{{vtable.shim}} () at /lib64/libglycin-2.so.0
+#5  0x00007f2d6b89a4e1 in std::sys::pal::unix::thread::Thread::new::thread_start () at /lib64/libglycin-2.so.0
+#6  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#7  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 7 (Thread 0x7f2cb96196c0 (LWP 53810) "async-io"):
+#0  0x00007f2d6b742f92 in async_io::reactor::ReactorLock::react () at /lib64/libglycin-2.so.0
+#1  0x00007f2d6b742682 in std::sys::backtrace::__rust_begin_short_backtrace () at /lib64/libglycin-2.so.0
+#2  0x00007f2d6b74973c in core::ops::function::FnOnce::call_once{{vtable.shim}} () at /lib64/libglycin-2.so.0
+#3  0x00007f2d6b89a4e1 in std::sys::pal::unix::thread::Thread::new::thread_start () at /lib64/libglycin-2.so.0
+#4  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#5  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 6 (Thread 0x7f2cb90166c0 (LWP 53816) "gly-hdl-loader"):
+#0  0x00007f2d6bdb7982 in __syscall_cancel_arch () at /lib64/libc.so.6
+#1  0x00007f2d6bdabc3c in __internal_syscall_cancel () at /lib64/libc.so.6
+#2  0x00007f2d6bdabc84 in __syscall_cancel () at /lib64/libc.so.6
+#3  0x00007f2d6be1bb4f in wait4 () at /lib64/libc.so.6
+#4  0x00007f2d6b893e6b in std::sys::process::unix::unix::Process::wait () at /lib64/libglycin-2.so.0
+#5  0x00007f2d6b66f431 in std::sys::backtrace::__rust_begin_short_backtrace () at /lib64/libglycin-2.so.0
+#6  0x00007f2d6b678a94 in core::ops::function::FnOnce::call_once{{vtable.shim}} () at /lib64/libglycin-2.so.0
+#7  0x00007f2d6b89a4e1 in std::sys::pal::unix::thread::Thread::new::thread_start () at /lib64/libglycin-2.so.0
+#8  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#9  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 5 (Thread 0x7f2cb8e156c0 (LWP 53824) "gly-hdl-loader"):
+#0  0x00007f2d6bdb7982 in __syscall_cancel_arch () at /lib64/libc.so.6
+#1  0x00007f2d6bdabc3c in __internal_syscall_cancel () at /lib64/libc.so.6
+#2  0x00007f2d6bdabc84 in __syscall_cancel () at /lib64/libc.so.6
+#3  0x00007f2d6be1bb4f in wait4 () at /lib64/libc.so.6
+#4  0x00007f2d6b893e6b in std::sys::process::unix::unix::Process::wait () at /lib64/libglycin-2.so.0
+#5  0x00007f2d6b66f431 in std::sys::backtrace::__rust_begin_short_backtrace () at /lib64/libglycin-2.so.0
+#6  0x00007f2d6b678a94 in core::ops::function::FnOnce::call_once{{vtable.shim}} () at /lib64/libglycin-2.so.0
+#7  0x00007f2d6b89a4e1 in std::sys::pal::unix::thread::Thread::new::thread_start () at /lib64/libglycin-2.so.0
+#8  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#9  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 4 (Thread 0x7f2cad0ac6c0 (LWP 54459) "[pango] fontcon"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28952b in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d2271ac in g_async_queue_pop_intern_unlocked () at /lib64/libglib-2.0.so.0
+#3  0x00007f2d6d22721c in g_async_queue_pop () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6cb726c9 in fc_thread_func () at /lib64/libpangoft2-1.0.so.0
+#5  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#6  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#7  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f2cb92176c0 (LWP 54469) "blocking-3"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6b89addb in std::sys::sync::condvar::futex::Condvar::wait_timeout () at /lib64/libglycin-2.so.0
+#2  0x00007f2d6b7579c1 in std::sys::backtrace::__rust_begin_short_backtrace () at /lib64/libglycin-2.so.0
+#3  0x00007f2d6b75898c in core::ops::function::FnOnce::call_once{{vtable.shim}} () at /lib64/libglycin-2.so.0
+#4  0x00007f2d6b89a4e1 in std::sys::pal::unix::thread::Thread::new::thread_start () at /lib64/libglycin-2.so.0
+#5  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#6  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f2cae0f96c0 (LWP 54489) "pool-1"):
+#0  0x00007f2d6be3034d in syscall () at /lib64/libc.so.6
+#1  0x00007f2d6d28a20b in g_cond_wait_until () at /lib64/libglib-2.0.so.0
+#2  0x00007f2d6d22716d in g_async_queue_pop_intern_unlocked () at /lib64/libglib-2.0.so.0
+#3  0x00007f2d6d2272dd in g_async_queue_timeout_pop () at /lib64/libglib-2.0.so.0
+#4  0x00007f2d6d2937bf in g_thread_pool_thread_proxy () at /lib64/libglib-2.0.so.0
+#5  0x00007f2d6d2926c2 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#6  0x00007f2d6bdaf464 in start_thread () at /lib64/libc.so.6
+#7  0x00007f2d6be325ac in __clone3 () at /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f2d697fd380 (LWP 53786) "gimp-3.0"):
+#0  0x00007f2d6bdb7982 in __syscall_cancel_arch () at /lib64/libc.so.6
+#1  0x00007f2d6bdabc3c in __internal_syscall_cancel () at /lib64/libc.so.6
+#2  0x00007f2d6bdabc84 in __syscall_cancel () at /lib64/libc.so.6
+#3  0x00007f2d6be256fe in read () at /lib64/libc.so.6
+#4  0x00007f2d6d836729 in gimp_stack_trace_print () at /lib64/libgimpbase-3.0.so.0
+#5  0x000055cf85c0929f in gimp_eek ()
+#6  0x000055cf85c0954c in gimp_fatal_error ()
+#7  0x000055cf85c0e4fe in gimp_sigfatal_handler ()
+#8  0x00007f2d6bd572c0 in <signal handler called> () at /lib64/libc.so.6
+#9  0x00007f2d6d3a1858 in g_type_check_instance_is_a () at /lib64/libgobject-2.0.so.0
+#10 0x000055cf85e25c70 in gimp_statusbar_override_window_title ()
+#11 0x000055cf85e2603c in gimp_statusbar_progress_start ()
+#12 0x000055cf85a7a2a9 in gimp_progress_start ()
+#13 0x000055cf85a7a2a9 in gimp_progress_start ()
+#14 0x000055cf85a7a2a9 in gimp_progress_start ()
+#15 0x000055cf85b2410b in progress_init_invoker ()
+#16 0x000055cf85bafc90 in gimp_procedure_execute ()
+#17 0x000055cf85bb0136 in gimp_pdb_execute_procedure_by_name_args ()
+#18 0x000055cf85bc6673 in gimp_plug_in_handle_message ()
+#19 0x000055cf85bb472a in gimp_plug_in_recv_message ()
+#20 0x00007f2d6d25e2a3 in g_main_context_dispatch_unlocked.lto_priv () at /lib64/libglib-2.0.so.0
+#21 0x00007f2d6d2671f8 in g_main_context_iterate_unlocked.isra () at /lib64/libglib-2.0.so.0
+#22 0x00007f2d6d26749f in g_main_loop_run () at /lib64/libglib-2.0.so.0
+#23 0x000055cf85bc8507 in gimp_plug_in_manager_call_run ()
+#24 0x000055cf85bb951d in gimp_plug_in_procedure_execute ()
+#25 0x000055cf85bafc90 in gimp_procedure_execute ()
+#26 0x000055cf85bb0136 in gimp_pdb_execute_procedure_by_name_args ()
+#27 0x000055cf85bb0668 in gimp_pdb_execute_procedure_by_name ()
+#28 0x000055cf85af6dfd in file_open_image ()
+#29 0x000055cf85af7437 in file_open_with_proc_and_display ()
+#30 0x000055cf85af77ce in file_open_from_command_line ()
+#31 0x000055cf85c08843 in app_activate_callback ()
+#32 0x00007f2d6d379c3c in g_closure_invoke () at /lib64/libgobject-2.0.so.0
+#33 0x00007f2d6d39827a in signal_emit_unlocked_R.isra.0 () at /lib64/libgobject-2.0.so.0
+#34 0x00007f2d6d39a2b6 in signal_emit_valist_unlocked () at /lib64/libgobject-2.0.so.0
+#35 0x00007f2d6d39a528 in g_signal_emit_valist () at /lib64/libgobject-2.0.so.0
+#36 0x00007f2d6d39a5e3 in g_signal_emit () at /lib64/libgobject-2.0.so.0
+#37 0x00007f2d6cfd9786 in g_application_activate () at /lib64/libgio-2.0.so.0
+#38 0x00007f2d6cfdbed0 in g_application_real_local_command_line () at /lib64/libgio-2.0.so.0
+#39 0x00007f2d6cfdc071 in g_application_run () at /lib64/libgio-2.0.so.0
+#40 0x000055cf85c08f45 in app_run ()
+#41 0x000055cf85a1a142 in main ()
+[Inferior 1 (process 53786) detached]

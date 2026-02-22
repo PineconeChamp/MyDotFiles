@@ -1,0 +1,5 @@
+#!/bin/bash
+
+Discord &
+disown
+

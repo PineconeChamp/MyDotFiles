@@ -1,0 +1,58 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/Decompile Jar">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Decompile Jar" projectWorkspaceId="38O4fOn65qhaXb9NmRYT7sQ2EMz">
+              <option name="activationTimestamp" value="1768657677479" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-253.29346.240" />
+              <option name="buildTimestamp" value="1767848460000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="364" y="85" width="593" height="973" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1768657385460" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Hytale-Example-Plugin-2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Hytale-Example-Plugin-2 – README.md" projectWorkspaceId="38O8qOtMW7SafNbU4xxZGLbAByW">
+              <option name="activationTimestamp" value="1768659462292" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-253.29346.240" />
+              <option name="buildTimestamp" value="1767848460000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="791" y="85" width="1107" height="973" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1768659446711" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/Hytale-Example-Plugin">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ExamplePlugin – BlockEntity.java [Gradle: HytaleServer.jar]" opened="true" projectWorkspaceId="38LVerpR2QbHvBe9XX401wjNoKL">
+              <option name="activationTimestamp" value="1769104650350" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-253.29346.240" />
+              <option name="buildTimestamp" value="1767848460000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="1942" y="85" width="1036" height="1813" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1768659462705" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/Hytale-Example-Plugin" />
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>

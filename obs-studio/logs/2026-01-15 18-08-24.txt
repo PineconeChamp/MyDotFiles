@@ -1,0 +1,316 @@
+18:08:24.653: Platform: Wayland
+18:08:24.653: CPU Name: 12th Gen Intel(R) Core(TM) i5-12600K
+18:08:24.653: CPU Speed: 800.851MHz
+18:08:24.653: Physical Cores: 10, Logical Cores: 16
+18:08:24.653: Physical Memory: 31844MB Total, 4887MB Free
+18:08:24.653: Kernel Version: Linux 6.17.12-300.fc43.x86_64
+18:08:24.653: Distribution: "Fedora Linux" 43
+18:08:24.653: Desktop Environment: Hyprland (hyprland)
+18:08:24.653: Session Type: wayland
+18:08:24.654: Current Date/Time: 2026-01-15, 18:08:24
+18:08:24.654: Browser Hardware Acceleration: true
+18:08:24.654: Qt Version: 6.10.1 (runtime), 6.10.1 (compiled)
+18:08:24.654: Portable mode: false
+18:08:24.681: OBS 32.0.4 (linux)
+18:08:24.681: ---------------------------------
+18:08:24.681: ---------------------------------
+18:08:24.681: audio settings reset:
+18:08:24.681: 	samples per sec: 48000
+18:08:24.681: 	speakers:        2
+18:08:24.681: 	max buffering:   960 milliseconds
+18:08:24.681: 	buffering type:  dynamically increasing
+18:08:24.684: ---------------------------------
+18:08:24.684: Initializing OpenGL...
+18:08:24.684: Using EGL/Wayland
+18:08:24.723: Initialized EGL 1.5
+18:08:24.761: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2
+18:08:24.761: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.119.02, shading language 3.30 NVIDIA via Cg compiler
+18:08:24.857: ---------------------------------
+18:08:24.857: video settings reset:
+18:08:24.857: 	base resolution:   1920x1080
+18:08:24.857: 	output resolution: 1280x720
+18:08:24.857: 	downscale filter:  Bicubic
+18:08:24.857: 	fps:               30/1
+18:08:24.857: 	format:            NV12
+18:08:24.857: 	YUV mode:          Rec. 709/Partial
+18:08:24.857: NV12 texture support enabled
+18:08:24.857: P010 texture support not available
+18:08:24.857: Audio monitoring device:
+18:08:24.857: 	name: Default
+18:08:24.857: 	id: default
+18:08:24.893: ---------------------------------
+18:08:24.896: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:08:24.899: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:08:24.902: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:08:24.902: Failed to initialize module 'decklink.so'
+18:08:24.905: Failed to load 'en-GB' text for module: 'distroav.so'
+18:08:24.905: [distroav] obs_module_load: you can haz DistroAV (Version 6.1.1)
+18:08:24.907: [distroav] obs_module_load: NDI library detected ('NDI SDK LINUX 10:39:50 Jun  2 2025 6.2.0.3')
+18:08:24.907: [distroav] NDI Version detected: 6.2.0.3
+18:08:24.907: [distroav] obs_module_load: NDI library initialized successfully
+18:08:24.912: [distroav] plugin loaded successfully (version 6.1.1)
+18:08:24.919: Failed to load 'en-GB' text for module: 'droidcam-obs.so'
+18:08:24.919: [droidcam-obs] module loaded release 241 (fedora)
+18:08:25.007: [pipewire] Available capture sources:
+18:08:25.007: [pipewire]     - Monitor source
+18:08:25.007: [pipewire]     - Window source
+18:08:25.016: v4l2loopback not installed, virtual camera not registered
+18:08:25.037: [obs-browser]: Alloy Runtime preferences not found. No migration necessary.
+18:08:25.037: [obs-browser]: Version 2.26.3
+18:08:25.037: [obs-browser]: CEF Version 143.0.7499.169 (runtime), 143.0.10+g8aed01b+chromium-143.0.7499.146 (compiled)
+18:08:25.037: [obs-browser]: Blacklisted driver detected, disabling browser source hardware acceleration.
+18:08:25.323: VAAPI: API version 1.22
+18:08:25.370: FFmpeg VAAPI H264 encoding supported
+18:08:25.593: FFmpeg VAAPI AV1 encoding supported
+18:08:25.810: FFmpeg VAAPI HEVC encoding supported
+18:08:26.236: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: true
+18:08:26.897: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+18:08:26.897: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.1
+18:08:26.897: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+18:08:26.897: [obs-websocket] [Config::Load] Existing configuration not found, using defaults.
+18:08:26.897: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+18:08:26.900: [obs-websocket] [obs_module_load] Module loaded.
+18:08:27.014: [vlc-video]: VLC 3.0.22 Vetinari found, VLC video source enabled
+18:08:27.014: ---------------------------------
+18:08:27.014:   Loaded Modules:
+18:08:27.014:     vlc-video.so
+18:08:27.014:     text-freetype2.so
+18:08:27.014:     rtmp-services.so
+18:08:27.014:     obs-x264.so
+18:08:27.014:     obs-websocket.so
+18:08:27.014:     obs-webrtc.so
+18:08:27.014:     obs-webkitgtk.so
+18:08:27.014:     obs-vst.so
+18:08:27.014:     obs-transitions.so
+18:08:27.014:     obs-qsv11.so
+18:08:27.014:     obs-outputs.so
+18:08:27.014:     obs-nvenc.so
+18:08:27.014:     obs-libfdk.so
+18:08:27.014:     obs-filters.so
+18:08:27.014:     obs-ffmpeg.so
+18:08:27.014:     obs-browser.so
+18:08:27.014:     linux-v4l2.so
+18:08:27.014:     linux-pulseaudio.so
+18:08:27.015:     linux-pipewire.so
+18:08:27.015:     linux-jack.so
+18:08:27.015:     linux-capture.so
+18:08:27.015:     linux-alsa.so
+18:08:27.015:     image-source.so
+18:08:27.015:     frontend-tools.so
+18:08:27.015:     droidcam-obs.so
+18:08:27.015:     distroav.so
+18:08:27.015:     decklink-output-ui.so
+18:08:27.015:     decklink-captions.so
+18:08:27.015: ---------------------------------
+18:08:27.015: ---------------------------------
+18:08:27.015: Available Encoders:
+18:08:27.015:   Video Encoders:
+18:08:27.015: 	- ffmpeg_openh264 (OpenH264)
+18:08:27.015: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:08:27.015: 	- ffmpeg_aom_av1 (AOM AV1)
+18:08:27.015: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+18:08:27.015: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+18:08:27.015: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+18:08:27.015: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+18:08:27.015: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+18:08:27.015: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+18:08:27.015: 	- obs_x264 (x264)
+18:08:27.015:   Audio Encoders:
+18:08:27.015: 	- ffmpeg_aac (FFmpeg AAC)
+18:08:27.015: 	- ffmpeg_opus (FFmpeg Opus)
+18:08:27.015: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:08:27.015: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:08:27.015: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:08:27.015: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:08:27.015: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:08:27.015: 	- libfdk_aac (libfdk AAC)
+18:08:27.015: ==== Startup complete ===============================================
+18:08:27.017: No scene file found, creating default scene
+18:08:27.074: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+18:08:27.074: All scene data cleared
+18:08:27.074: ------------------------------------------------
+18:08:27.109: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+18:08:27.109: Deduplication logic is being applied to all monitored sources.
+18:08:27.110: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+18:08:27.110: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:08:27.110: pulse-input: Started recording from 'alsa_output.usb-Yamaha_Corporation_Steinberg_UR22C-00.analog-stereo.monitor' (default)
+18:08:27.111: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+18:08:27.111: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:08:27.111: pulse-input: Started recording from 'alsa_input.usb-Yamaha_Corporation_Steinberg_UR22C-00.analog-stereo' (default)
+18:08:27.113: Switched to scene 'Scene'
+18:08:27.113: Created scene collection 'Untitled' (clean, Untitled.json)
+18:08:27.113: ------------------------------------------------
+18:08:27.140: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+18:08:27.140: Deduplication logic is being applied to all monitored sources.
+18:08:27.208: [droidcam-obs] using bindIP '(null)'
+18:08:27.668: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:08:27.668: 
+18:08:27.732: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+18:08:27.732: 
+18:08:36.016: 
+18:08:36.016: ==== Auto-config wizard testing commencing ======
+
+18:08:37.151: ---------------------------------
+18:08:37.151: video settings reset:
+18:08:37.151: 	base resolution:   1920x1080
+18:08:37.151: 	output resolution: 1920x1080
+18:08:37.151: 	downscale filter:  Bicubic
+18:08:37.151: 	fps:               60/1
+18:08:37.151: 	format:            NV12
+18:08:37.151: 	YUV mode:          Rec. 709/Partial
+18:08:37.151: NV12 texture support enabled
+18:08:37.151: P010 texture support not available
+18:08:37.153: 
+18:08:37.153: ==== Auto-config wizard testing stopping ========
+
+18:09:03.320: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b791a1e0 with focusing surface 0x5577b7e39780
+18:09:07.201: [Media Source 'Scree']: settings:
+18:09:07.201: 	input:                   
+18:09:07.201: 	input_format:            (null)
+18:09:07.201: 	speed:                   100
+18:09:07.201: 	is_looping:              no
+18:09:07.201: 	is_linear_alpha:         no
+18:09:07.201: 	is_hw_decoding:          no
+18:09:07.201: 	is_clear_on_media_end:   yes
+18:09:07.201: 	restart_on_activate:     yes
+18:09:07.201: 	close_when_inactive:     no
+18:09:07.201: 	full_decode:             no
+18:09:07.201: 	ffmpeg_options:          
+18:09:07.203: User added source 'Scree' (ffmpeg_source) to scene 'Scene'
+18:09:11.500: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7e385a0 with focusing surface 0x5577b7140630
+18:09:12.041: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7e385a0 with focusing surface 0x5577b7140630
+18:09:12.910: User Removed source 'Scree' (ffmpeg_source) from scene 'Scene'
+18:09:21.969: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7140630 with focusing surface 0x5577b7a4b8f0
+18:09:24.002: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b791a1e0 with focusing surface 0x5577b7a4b8f0
+18:09:26.775: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b791a1e0 with focusing surface 0x5577b7a4b8f0
+18:09:28.449: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b791a1e0 with focusing surface 0x5577b7a4b8f0
+18:09:29.784: PipeWire initialized
+18:09:29.788: User added source 'Screen1' (pipewire-screen-capture-source) to scene 'Scene'
+18:09:29.798: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7e46270 with focusing surface 0x5577b7140630
+18:09:29.812: [pipewire] Screencast session created
+18:09:31.572: [pipewire] Asking for monitor and window
+18:09:31.591: [pipewire] source selected, setting up screencast
+18:09:31.597: [pipewire] Server version: 1.4.9
+18:09:31.597: [pipewire] Library version: 1.4.9
+18:09:31.597: [pipewire] Header version: 1.4.9
+18:09:31.597: [pipewire] Created stream 0x5577b698ac50
+18:09:31.597: [pipewire] Stream 0x5577b698ac50 state: "connecting" (error: none)
+18:09:31.597: [pipewire] Playing stream 0x5577b698ac50
+18:09:31.598: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:09:31.655: [pipewire] Negotiated format:
+18:09:31.655: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+18:09:31.655: [pipewire]     Modifier: 0x0
+18:09:31.655: [pipewire]     Size: 1920x1080
+18:09:31.655: [pipewire]     Framerate: 0/1
+18:09:31.656: [pipewire] Negotiated format:
+18:09:31.656: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+18:09:31.656: [pipewire]     Modifier: 0x300000000e08014
+18:09:31.656: [pipewire]     Size: 1920x1080
+18:09:31.656: [pipewire]     Framerate: 0/1
+18:09:31.657: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:09:32.060: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7e46270 with focusing surface 0x5577b7140630
+18:09:33.352: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7e46270 with focusing surface 0x5577b7140630
+18:09:33.490: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7e46270 with focusing surface 0x5577b7140630
+18:09:36.754: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5577b6b04de0 with focusing surface 0x5577b7140630
+18:09:37.013: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5577b7140630 with focusing surface 0x5577b6b04de0
+18:09:37.121: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5577b6b04de0 with focusing surface 0x5577b7140630
+18:09:40.253: PipeWire initialized
+18:09:40.257: User added source 'Screen2' (pipewire-screen-capture-source) to scene 'Scene'
+18:09:40.276: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b78253a0 with focusing surface 0x5577b7140630
+18:09:40.290: [pipewire] Screencast session created
+18:09:41.416: [pipewire] Asking for monitor and window
+18:09:41.419: [pipewire] source selected, setting up screencast
+18:09:41.422: [pipewire] Server version: 1.4.9
+18:09:41.422: [pipewire] Library version: 1.4.9
+18:09:41.422: [pipewire] Header version: 1.4.9
+18:09:41.422: [pipewire] Created stream 0x5577b7e3f710
+18:09:41.422: [pipewire] Stream 0x5577b7e3f710 state: "connecting" (error: none)
+18:09:41.422: [pipewire] Playing stream 0x5577b7e3f710
+18:09:41.422: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:09:41.494: [pipewire] Negotiated format:
+18:09:41.494: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+18:09:41.494: [pipewire]     Modifier: 0x0
+18:09:41.494: [pipewire]     Size: 1920x1080
+18:09:41.494: [pipewire]     Framerate: 0/1
+18:09:41.495: [pipewire] Negotiated format:
+18:09:41.495: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+18:09:41.495: [pipewire]     Modifier: 0x300000000e08014
+18:09:41.495: [pipewire]     Size: 1920x1080
+18:09:41.495: [pipewire]     Framerate: 0/1
+18:09:41.496: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:09:41.809: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b78253a0 with focusing surface 0x5577b7140630
+18:10:58.174: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7140630 with focusing surface 0x5577b6af4d80
+18:10:59.437: User added scene 'Scene 2'
+18:10:59.438: User switched to scene 'Scene 2'
+18:10:59.769: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:10:59.769: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:11:00.910: User switched to scene 'Scene'
+18:11:00.919: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:11:00.919: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:11:01.488: User switched to scene 'Scene 2'
+18:11:01.836: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:11:01.836: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:11:03.316: User switched to scene 'Scene'
+18:11:03.319: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:11:03.319: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:11:36.024: Settings changed (hotkeys)
+18:11:36.024: ------------------------------------------------
+18:11:41.538: Settings changed (hotkeys)
+18:11:41.538: ------------------------------------------------
+18:11:46.302: User switched to scene 'Scene 2'
+18:11:46.636: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:11:46.636: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:11:46.810: User switched to scene 'Scene'
+18:11:46.819: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:11:46.819: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:12:08.997: Settings changed (hotkeys)
+18:12:08.997: ------------------------------------------------
+18:12:16.047: User switched to scene 'Scene 2'
+18:12:16.369: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:12:16.369: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:12:16.727: User switched to scene 'Scene'
+18:12:16.735: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:12:16.735: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:12:18.560: User switched to scene 'Scene 2'
+18:12:18.885: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:12:18.885: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:12:21.700: User switched to scene 'Scene'
+18:12:21.702: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:12:21.702: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:12:22.943: User switched to scene 'Scene 2'
+18:12:23.269: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:12:23.269: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:12:24.168: User switched to scene 'Scene'
+18:12:24.169: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:12:24.169: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:12:24.834: User switched to scene 'Scene 2'
+18:12:25.152: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:12:25.152: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:12:25.587: User switched to scene 'Scene'
+18:12:25.602: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:12:25.602: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:12:59.747: User added source 'Carr' (image_source) to scene 'Scene'
+18:13:01.108: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7820230 with focusing surface 0x5577b8f17e40
+18:13:44.700: User Removed source 'Carr' (image_source) from scene 'Scene'
+18:14:45.621: virtual void QtWaylandClient::QWaylandTextInputv3::enableSurface(wl_surface*) Try to enable surface 0x5577b8f107f0 with focusing surface 0x5577b7140630
+18:14:49.041: User added source 'MR2' (image_source) to scene 'Scene'
+18:14:49.066: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577ba062d50 with focusing surface 0x5577b7140630
+18:14:49.534: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577ba062d50 with focusing surface 0x5577b7140630
+18:14:55.801: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577ba062d50 with focusing surface 0x5577b7140630
+18:15:47.413: User switched to scene 'Scene 2'
+18:15:47.736: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:15:47.736: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:15:48.100: User switched to scene 'Scene'
+18:15:48.102: [pipewire] Stream 0x5577b698ac50 state: "streaming" (error: none)
+18:15:48.102: [pipewire] Stream 0x5577b7e3f710 state: "streaming" (error: none)
+18:16:40.945: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7a29ab0 with focusing surface 0x5577b7140630
+18:16:41.546: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x5577b7a29ab0 with focusing surface 0x5577b7140630
+18:16:42.374: This plugin supports grabbing the mouse only for popup windows
+18:16:42.587: This plugin supports grabbing the mouse only for popup windows
+18:17:23.603: Settings changed (appearance)
+18:17:23.603: ------------------------------------------------
+18:22:04.780: [pipewire] Stream 0x5577b698ac50 state: "paused" (error: none)
+18:22:12.823: ==== Shutting down ==================================================
+18:22:12.892: eglSwapBuffers failed
+18:22:12.937: [pipewire] Stream 0x5577b7e3f710 state: "paused" (error: none)
+18:22:12.946: The Wayland connection broke. Did the Wayland compositor die?

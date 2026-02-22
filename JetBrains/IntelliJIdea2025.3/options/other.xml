@@ -1,0 +1,86 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Oracle OpenJDK 25.0.1" />
+        <option name="installDir" value="/home/pine/.jdks/openjdk-25.0.1" />
+        <option name="sha256" value="514db33011f2c81fa9c589f7712735b42b9d2575db8f817d3be40a92d2ef7ad8" />
+        <option name="url" value="https://download.java.net/java/GA/jdk25.0.1/2fbf10d8c78e40bd87641c434705079d/8/GPL/openjdk-25.0.1_linux-x64_bin.tar.gz" />
+        <option name="versionText" value="25.0.1" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "BuildView.Splitter.Proportion": "0.33556297",
+    "KEYMAP": "Create Desktop",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "IU-253.29346.240",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "NewProjectWizard.generateOnboardingTips": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SettingsSearchHistory": "grad\ncreate desk",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "decompiler.legal.notice.accepted": "true",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "1",
+    "evlsprt3.253": "4",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "253.29346.240",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.database.cloud.explorer.promo": "1",
+    "got.it.tooltip.speed.search.shown": "1",
+    "ide.islands.ab3": "true",
+    "ift.hide.welcome.screen.promo": "true",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "253.29346.240-IJ",
+    "jdk.selected.JAVA_MODULE": "openjdk-25",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "onboarding.generation.number": "1",
+    "previousColorScheme": "_@user_Islands Dark",
+    "project.wizard.group": "NPW.simple-module.Java",
+    "registry.to.advanced.settings.migration.build": "IU-253.29346.240",
+    "tab_selection_count": "4",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true",
+    "toolwindow.showToolWindowsNames.ts": "2026-01-17T14:19:11.130678973",
+    "toolwindow.showToolWindowsNames.value": "true",
+    "trial.state.last.availability.check": "1769104299441",
+    "trial.state.last.availability.state": "true",
+    "trial.state.last.state": "TRIAL_AVAILABLE"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/pine/IdeaProjects/Hytale-Example-Plugin",
+      "/home/pine/IdeaProjects/Decompile Jar",
+      "/home/pine/.var/app/com.hypixel.HytaleLauncher/data/Hytale/install/release/package/game/latest/Server/HytaleServer-src.zip"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

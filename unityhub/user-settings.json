@@ -1,0 +1,9 @@
+{
+	"download": {
+		"maxConcurrentDownloads": 2
+	},
+	"activeOrganizationId": "all",
+	"projects": {
+		"showProductNames": false
+	}
+}

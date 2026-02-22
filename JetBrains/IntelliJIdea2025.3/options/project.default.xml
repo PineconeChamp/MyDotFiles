@@ -1,0 +1,26 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+      <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+          <created>1768570535499</created>
+          <option name="number" value="Default" />
+          <option name="presentableId" value="Default" />
+          <updated>1768570535499</updated>
+        </task>
+        <servers />
+      </component>
+      <component name="WindowStateProjectService">
+        <state x="871" y="43" width="900" height="1037" key="SettingsEditor" timestamp="1768570553606">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="871" y="43" width="900" height="1037" key="SettingsEditor/0.0.1920.1080/1920.0.1080.1920" timestamp="1768570553606" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

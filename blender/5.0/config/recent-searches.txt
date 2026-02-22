@@ -1,0 +1,53 @@
+   Render Result
+Principled BSDF ▸ BSDF
+   Glass
+Open Recent ▸ AvatarBlendFile.blend
+Move to Collection ▸ New Collection
+Generate ▸ Skin
+Deform ▸ Simple Deform
+Deform ▸ Mesh Deform
+Deform ▸ Curve
+Generate ▸ Solidify
+Deform ▸ Shrinkwrap
+Colour ▸ Shader to RGB
+Utilities ▸ Maths ▸ Mix
+Colour ▸ Mix Color ▸ Mix
+Filter ▸ Glare
+Shader ▸ Transparent BSDF
+ 0 Material.003
+   Material.003
+   Material.004
+Generate ▸ Mirror
+Shader ▸ Subsurface Scattering
+Colour ▸ Colour Ramp
+Shader ▸ Diffuse BSDF
+Mix ▸ Colour
+Image Texture ▸ Vector
+   Untitled
+Input ▸ Geometry
+Utilities ▸ Maths ▸ Maths ▸ Multiply
+Utilities ▸ Vector ▸ Vector Maths ▸ Scale
+Texture ▸ Voronoi Texture
+Colour ▸ Mix Color
+Shader ▸ Mix Shader
+   Material.007
+  Bfont Regular
+ 0 Material
+  BSurfaceMesh.001
+
+Shader ▸ Glass BSDF
+   Material
+Colour Ramp ▸ Factor
+Bump ▸ Height
+Input ▸ Light Path
+Displacement ▸ Bump
+Texture ▸ Noise Texture
+Generate ▸ Array
+Generate ▸ Boolean
+Input ▸ Geometry ▸ Position
+Utilities ▸ Vector ▸ Mapping
+Shader ▸ Principled BSDF
+   Material.001
+   Material.002
+Physics ▸ Ocean
+Generate ▸ Subdivision Surface

@@ -1,0 +1,10 @@
+# GIMP gimp-convolve-tool options
+
+(brush "Pencil 03")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(palette "Colour History")
+(brush-size 32)
+(brush-spacing 0.20000000000000001)
+
+# end of gimp-convolve-tool options

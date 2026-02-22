@@ -1,0 +1,22 @@
+Generate ▸ Decimate
+   Render Result
+Converter ▸ Colour Ramp
+Converter ▸ Mix
+Texture ▸ Noise Texture
+Input ▸ Geometry
+Vector ▸ Mapping
+Texture ▸ Sky Texture
+Texture ▸ Voronoi Texture
+
+Deform ▸ Shrinkwrap
+Generate ▸ Skin
+   Liquid Domain Material
+Texture ▸ White Noise Texture
+Colour Ramp ▸ Fac
+ 0 Material.002
+Shader ▸ Emission
+   Material.001
+   Material.002
+Generate ▸ Array
+Generate ▸ Mirror
+   Material

@@ -1,0 +1,65 @@
+﻿[21:20:15.289] [Info] Root: Preparing Root...
+[21:20:15.290] [Info] Root: Done preparing Root.
+[21:20:15.290] [Info] Root: Scanning for asset sources in directory '../assets/'
+[21:20:15.290] [Info] Root: Loaded Configuration in 0.00054914 seconds
+[21:20:15.353] [Info] Root: Skipping asset directory '../mods/', directory not found
+[21:20:15.353] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
+[21:20:15.353] [Info] Loading assets from: '../assets/packed.pak'
+[21:20:15.750] [Info] Assets digest is ad117659ba5bb39107cbda7c1b6ccf8d2b8dd1cc9322b534cea096f741a8c447
+[21:20:15.750] [Info] Root: Loaded Assets in 0.45984 seconds
+[21:20:15.754] [Info] Root: Loaded NameGenerator in 0.463299 seconds
+[21:20:15.782] [Info] Root: Loaded PlantDatabase in 0.0284934 seconds
+[21:20:15.819] [Info] Root: Loaded ObjectDatabase in 0.0690343 seconds
+[21:20:15.820] [Info] Root: Loaded ProjectileDatabase in 0.0382046 seconds
+[21:20:15.839] [Info] Root: Loaded NpcDatabase in 0.01859 seconds
+[21:20:15.840] [Info] Root: Loaded StagehandDatabase in 0.000535525 seconds
+[21:20:15.842] [Info] Root: Loaded VehicleDatabase in 0.00189108 seconds
+[21:20:15.842] [Info] Root: Loaded PlayerFactory in 0.000904018 seconds
+[21:20:15.853] [Info] Root: Loaded MonsterDatabase in 0.0338878 seconds
+[21:20:15.853] [Info] Root: Loaded VersioningDatabase in 0.000212596 seconds
+[21:20:15.853] [Info] Root: Loaded EntityFactory in 0.010317 seconds
+[21:20:15.861] [Info] Root: Loaded ParticleDatabase in 0.0082816 seconds
+[21:20:15.862] [Info] Root: Loaded ImageMetadataDatabase in 6.23e-07 seconds
+[21:20:15.893] [Info] Root: Loaded MaterialDatabase in 0.0404253 seconds
+[21:20:15.894] [Info] Root: Loaded TerrainDatabase in 0.00107066 seconds
+[21:20:15.901] [Info] Root: Loaded BiomeDatabase in 0.00686607 seconds
+[21:20:15.901] [Info] Root: Loaded LiquidsDatabase in 0.000176683 seconds
+[21:20:15.903] [Info] Root: Loaded StatusEffectDatabase in 0.00144777 seconds
+[21:20:15.969] [Info] Root: Loaded DamageDatabase in 0.0656275 seconds
+[21:20:15.970] [Info] Root: Loaded EffectSourceDatabase in 0.00101597 seconds
+[21:20:15.971] [Info] Root: Loaded FunctionDatabase in 0.00100566 seconds
+[21:20:15.976] [Info] Root: Loaded TreasureDatabase in 0.00539839 seconds
+[21:20:16.035] [Info] Root: Loaded DungeonDefinitions in 0.0585658 seconds
+[21:20:16.035] [Info] Root: Loaded TilesetDatabase in 3.589e-06 seconds
+[21:20:16.038] [Info] Root: Loaded StatisticsDatabase in 0.00298852 seconds
+[21:20:16.038] [Info] Root: Loaded EmoteProcessor in 1.814e-05 seconds
+[21:20:16.039] [Info] Root: Loaded SpeciesDatabase in 0.00136708 seconds
+[21:20:16.042] [Info] Root: Loaded QuestTemplateDatabase in 0.00298161 seconds
+[21:20:16.042] [Info] Root: Loaded AiDatabase in 0.000195897 seconds
+[21:20:16.042] [Info] Root: Loaded TechDatabase in 0.000177612 seconds
+[21:20:16.043] [Info] Root: Loaded CodexDatabase in 0.000931304 seconds
+[21:20:16.113] [Info] Root: Loaded BehaviorDatabase in 0.0699946 seconds
+[21:20:16.114] [Info] Root: Loaded DanceDatabase in 0.000647161 seconds
+[21:20:16.116] [Info] Root: Loaded SpawnTypeDatabase in 0.00141108 seconds
+[21:20:16.117] [Info] Root: Loaded RadioMessageDatabase in 0.00101674 seconds
+[21:20:16.701] [Info] Root: Loaded ItemDatabase in 0.848047 seconds
+[21:20:16.736] [Info] Root: Loaded CollectionDatabase in 0.619681 seconds
+[21:20:16.766] [Info] Server Version 1.4.3 (linux x86_64) Source ID: 126e56ae96dd14978b45ca472fb862fe7d005d17 Protocol: 747
+[21:20:16.767] [Info] UniverseServer: Acquiring universe lock file
+[21:20:17.771] [Info] Root: Shutting down Root
+[21:20:17.771] [Info] Root: Writing runtime configuration to '../storage/starbound_server.config'
+[21:20:17.856] [Error] Fatal Exception caught: (UniverseServerException) Could not acquire lock for the universe directory
+/home/pine/.local/share/St[21:20:18.277] [Info] Root: Writing runtime configuration to '../storage/starbound_server.config'
+KcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x66) [0x9d39e6]
+/home/pine/.local/share/Steam/steamapps/common/Starbound Dedicated Server/linux/starbound_server(_ZN4Star23UniverseServerExceptionC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x52) [0xffa0e2]
+/home/pine/.local/share/Steam/steamapps/common/Starbound Dedicated Server/linux/starbound_server(_ZN4Star14UniverseServerC2ERKNS_6StringE+0x17fe) [0xfe7c7e]
+/home/pine/.local/share/Steam/steamapps/common/Starbound Dedicated Server/linux/starbound_server(main+0x209) [0x8ac529]
+/lib64/libc.so.6(+0x35b5) [0x7fdac40ad5b5]
+/lib64/libc.so.6(__libc_start_main+0x88) [0x7fdac40ad668]
+/home/pine/.local/share/Steam/steamapps/common/Starbound Dedicated Server/linux/starbound_server(_start+0x2a) [0x8b701a]
+Caught at:
+/home/pine/.local/share/Steam/steamapps/common/Starbound Dedicated Server/linux/starbound_server(_ZN4Star14fatalExceptionERKSt9exceptionb+0x42) [0x9d5ce2]
+/home/pine/.local/share/Steam/steamapps/common/Starbound Dedicated Server/linux/starbound_server(main+0x76b) [0x8aca8b]
+/lib64/libc.so.6(+0x35b5) [0x7fdac40ad5b5]
+/lib64/libc.so.6(__libc_start_main+0x88) [0x7fdac40ad668]
+/home/pine/.local/share/Steam/steamapps/common/Starbound Dedicated Server/linux/starbound_server(_start+0x2a) [0x8b701a]
