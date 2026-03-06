@@ -9,7 +9,8 @@
     "modules-right": [
       "network",
       "pulseaudio",
-      "battery"
+      "battery",
+      "media"
     ],
 
     "battery": {
@@ -20,8 +21,17 @@
     "clock": {
         "format-alt": "{:%a, %d. %b  %H:%M}"
     },
+
     "hyprland/workspaces": {
-       	"format": "{name}",
+        "format": "{icon}",
+       	"format-icons": {
+            "1": "一",
+            "2": "ニ",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+        "active": "~(˘▾˘~)"
+        },
         "persistent-workspaces": {
               "*": 5, // 5 workspaces by default on every monitor
               "DP-1": 1 // but only three on HDMI-A-1
@@ -31,6 +41,12 @@
         "format": "{}",
         "separate-outputs": true
     },
+
+    "media": {
+        "format": "{title} - {artist}",
+        "player": "spotify"
+    },
+
     "pulseaudio": {
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon}",
@@ -52,11 +68,10 @@
         "ignored-sinks": ["Easy Effects Sink"]
     },
     "network": {
-        "interface": "wlp0s20f3",
-        "format": "{ifname}",
-        "format-wifi": "{essid}) ",
-        "format-ethernet": "{ipaddr}/{cidr} 󰊗",
-        "format-disconnected": "", //An empty format will hide the module.
+        "format": "auto",
+        "format-wifi": "{essid} ",
+        "format-ethernet": "{connected}",
+        "format-disconnected": "T",
         "tooltip-format": "{ifname} via {gwaddr} 󰊗",
         "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
         "tooltip-format-ethernet": "{ifname} ",
